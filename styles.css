@@ -1,0 +1,48 @@
+* {
+    font-family: "Consolas";
+    font-size: 25px;
+    color: yellow;
+}
+
+body {
+    margin: 0px;
+    background-color: grey;
+}
+
+canvas {
+    margin: 0px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: grey;
+    opacity: 0;
+}
+
+.middle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: black;
+}
+
+button {
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, 90%);
+    background-color: rgb(75, 117, 135);
+    color: white;
+    font-size: 30px;
+    border: none;
+}
+
+div {
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
